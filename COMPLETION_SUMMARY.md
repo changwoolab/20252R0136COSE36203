@@ -79,23 +79,23 @@ I have successfully built a complete **Korean Food Explanation System** that can
 ### Quick Start (3 steps)
 ```bash
 # 1. Build knowledge base
-python3 build_database.py
+python build_database.py
 
 # 2. Test system
-python3 test_pipeline.py
+python test_pipeline.py
 
 # 3. Try it!
-python3 demo.py --mode interactive
+python demo.py --mode interactive
 ```
 
 ### Analyze an Image
 ```bash
-python3 inference.py --image path/to/food.jpg
+python inference.py --image path/to/food.jpg
 ```
 
 ### Interactive Demo
 ```bash
-python3 demo.py --mode interactive
+python demo.py --mode interactive
 # Then type commands: random, list, info Bibimbap, or image path
 ```
 
@@ -256,7 +256,7 @@ cat README.md
 cat USAGE.md
 
 # Start using it!
-python3 demo.py --mode interactive
+python demo.py --mode interactive
 ```
 
 ## 🎯 Summary

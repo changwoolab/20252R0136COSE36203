@@ -149,16 +149,16 @@ hansik_clip/
 
 ```bash
 # 1. Build knowledge base
-python3 build_database.py
+python build_database.py
 
 # 2. Test system
-python3 test_pipeline.py
+python test_pipeline.py
 
 # 3. Try it out
-python3 demo.py --mode interactive
+python demo.py --mode interactive
 
 # 4. Analyze an image
-python3 inference.py --image path/to/food.jpg
+python inference.py --image path/to/food.jpg
 ```
 
 ## 🔑 Key Features
