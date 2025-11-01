@@ -1,0 +1,2102 @@
+{
+  "Stir-fried Eggplant": {
+    "korean_name": "가지볶음",
+    "english_name": "Stir-fried Eggplant",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "egg",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Soy Sauce Marinated Crab": {
+    "korean_name": "간장게장",
+    "english_name": "Soy Sauce Marinated Crab",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Marinated and then cooked",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Short Ribs": {
+    "korean_name": "갈비구이",
+    "english_name": "Grilled Short Ribs",
+    "description": "Beef short ribs marinated in a sweet soy-based sauce and grilled. Known for their tender, flavorful meat.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "beef short ribs",
+      "soy sauce",
+      "sugar",
+      "garlic",
+      "sesame oil",
+      "pear"
+    ],
+    "cooking_method": "Ribs are marinated and grilled over charcoal or on a grill pan.",
+    "cultural_note": "A premium Korean BBQ dish, often served at special occasions."
+  },
+  "Braised Short Ribs": {
+    "korean_name": "갈비찜",
+    "english_name": "Braised Short Ribs",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Beef Short Rib Soup": {
+    "korean_name": "갈비탕",
+    "english_name": "Beef Short Rib Soup",
+    "description": "A traditional Korean soup/stew featuring beef, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Hairtail Fish": {
+    "korean_name": "갈치구이",
+    "english_name": "Grilled Hairtail Fish",
+    "description": "Korean-style grilled seafood, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Hairtail Fish": {
+    "korean_name": "갈치조림",
+    "english_name": "Braised Hairtail Fish",
+    "description": "A braised dish where seafood are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Potato Pancake": {
+    "korean_name": "감자전",
+    "english_name": "Potato Pancake",
+    "description": "A savory Korean pancake made with vegetables, pan-fried until crispy on the outside.",
+    "category": "Pancake",
+    "ingredients": [
+      "potato",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Pan-fried until golden",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Potatoes": {
+    "korean_name": "감자조림",
+    "english_name": "Braised Potatoes",
+    "description": "A braised dish where vegetables are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "potato",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Shredded Potatoes": {
+    "korean_name": "감자채볶음",
+    "english_name": "Stir-fried Shredded Potatoes",
+    "description": "Crispy fried vegetables with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "potato",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pork Backbone Stew": {
+    "korean_name": "감자탕",
+    "english_name": "Pork Backbone Stew",
+    "description": "A traditional Korean soup/stew featuring pork, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Mustard Leaf Kimchi": {
+    "korean_name": "갓김치",
+    "english_name": "Mustard Leaf Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Dried Shrimp": {
+    "korean_name": "건새우볶음",
+    "english_name": "Stir-fried Dried Shrimp",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Sweet Rice Balls": {
+    "korean_name": "경단",
+    "english_name": "Sweet Rice Balls",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Egg Soup": {
+    "korean_name": "계란국",
+    "english_name": "Egg Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "egg",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Rolled Omelet": {
+    "korean_name": "계란말이",
+    "english_name": "Rolled Omelet",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Steamed Egg": {
+    "korean_name": "계란찜",
+    "english_name": "Steamed Egg",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "egg",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Steamed to perfection",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Fried Egg": {
+    "korean_name": "계란후라이",
+    "english_name": "Fried Egg",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "egg",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Mackerel": {
+    "korean_name": "고등어구이",
+    "english_name": "Grilled Mackerel",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Mackerel": {
+    "korean_name": "고등어조림",
+    "english_name": "Braised Mackerel",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Fernbrake": {
+    "korean_name": "고사리나물",
+    "english_name": "Seasoned Fernbrake",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Spicy Dried Squid": {
+    "korean_name": "고추장진미채볶음",
+    "english_name": "Stir-fried Spicy Dried Squid",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Deep-fried Chili Peppers": {
+    "korean_name": "고추튀김",
+    "english_name": "Deep-fried Chili Peppers",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Ox Bone Soup": {
+    "korean_name": "곰탕_설렁탕",
+    "english_name": "Ox Bone Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Beef Intestines": {
+    "korean_name": "곱창구이",
+    "english_name": "Grilled Beef Intestines",
+    "description": "Korean-style grilled beef, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Beef Tripe Hot Pot": {
+    "korean_name": "곱창전골",
+    "english_name": "Beef Tripe Hot Pot",
+    "description": "A traditional Korean dish made with beef and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Half-dried Fish (Gwaneji)": {
+    "korean_name": "과메기",
+    "english_name": "Half-dried Fish (Gwaneji)",
+    "description": "A traditional Korean dish made with seafood and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Gimbap": {
+    "korean_name": "김밥",
+    "english_name": "Gimbap",
+    "description": "Korean-style seaweed rice rolls filled with vegetables, egg, and often meat or fish. Similar in appearance to sushi but with distinctly Korean flavors.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "seaweed",
+      "vegetables",
+      "egg",
+      "pickled radish",
+      "meat or fish"
+    ],
+    "cooking_method": "Seasoned rice and fillings are rolled in dried seaweed sheets and sliced into bite-sized pieces.",
+    "cultural_note": "A popular picnic and lunchbox food, beloved by Koreans of all ages."
+  },
+  "Kimchi Fried Rice": {
+    "korean_name": "김치볶음밥",
+    "english_name": "Kimchi Fried Rice",
+    "description": "Fried rice made with aged kimchi, often topped with a fried egg and served with roasted seaweed.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "kimchi",
+      "pork or spam",
+      "gochugaru",
+      "sesame oil",
+      "egg"
+    ],
+    "cooking_method": "Kimchi is stir-fried with rice and meat until slightly crispy.",
+    "cultural_note": "A perfect way to use leftover rice and aged kimchi."
+  },
+  "Kimchi Pancake": {
+    "korean_name": "김치전",
+    "english_name": "Kimchi Pancake",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Pan-fried until golden",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Kimchi Stew": {
+    "korean_name": "김치찌개",
+    "english_name": "Kimchi Stew",
+    "description": "A spicy, hearty stew made with aged kimchi, pork, tofu, and vegetables. The longer-fermented kimchi provides deeper, more complex flavors.",
+    "category": "Stew",
+    "ingredients": [
+      "aged kimchi",
+      "pork belly",
+      "tofu",
+      "onions",
+      "green onions",
+      "gochugaru"
+    ],
+    "cooking_method": "Kimchi is sautéed with pork, then simmered in broth with tofu and other ingredients.",
+    "cultural_note": "A comfort food staple in Korean households, especially popular in cold weather."
+  },
+  "Braised Kimchi": {
+    "korean_name": "김치찜",
+    "english_name": "Braised Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Cubed Radish Kimchi": {
+    "korean_name": "깍두기",
+    "english_name": "Cubed Radish Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "radish",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pickled Perilla Leaves": {
+    "korean_name": "깻잎장아찌",
+    "english_name": "Pickled Perilla Leaves",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Steamed Cockles": {
+    "korean_name": "꼬막찜",
+    "english_name": "Steamed Cockles",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Steamed to perfection",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Pacific Saury": {
+    "korean_name": "꽁치조림",
+    "english_name": "Braised Pacific Saury",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Shishito Peppers": {
+    "korean_name": "꽈리고추무침",
+    "english_name": "Seasoned Shishito Peppers",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Honey Rice Cake": {
+    "korean_name": "꿀떡",
+    "english_name": "Honey Rice Cake",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Watery Kimchi": {
+    "korean_name": "나박김치",
+    "english_name": "Watery Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Scorched Rice": {
+    "korean_name": "누룽지",
+    "english_name": "Scorched Rice",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Stir-fried Chicken": {
+    "korean_name": "닭갈비",
+    "english_name": "Spicy Stir-fried Chicken",
+    "description": "Crispy fried chicken with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "chicken",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Chicken Soup": {
+    "korean_name": "닭계장",
+    "english_name": "Spicy Chicken Soup",
+    "description": "A traditional Korean soup/stew featuring chicken, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "chicken",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Spicy Chicken": {
+    "korean_name": "닭볶음탕",
+    "english_name": "Braised Spicy Chicken",
+    "description": "A braised dish where chicken are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "chicken",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Deodeok Root": {
+    "korean_name": "더덕구이",
+    "english_name": "Grilled Deodeok Root",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Bellflower Root": {
+    "korean_name": "도라지무침",
+    "english_name": "Seasoned Bellflower Root",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Acorn Jelly": {
+    "korean_name": "도토리묵",
+    "english_name": "Acorn Jelly",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Korean Meat Patties": {
+    "korean_name": "동그랑땡",
+    "english_name": "Korean Meat Patties",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pollack Stew": {
+    "korean_name": "동태찌개",
+    "english_name": "Pollack Stew",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Soybean Paste Stew": {
+    "korean_name": "된장찌개",
+    "english_name": "Soybean Paste Stew",
+    "description": "A hearty stew made with fermented soybean paste (doenjang), tofu, vegetables, and often meat or seafood. Has a deep, earthy flavor.",
+    "category": "Stew",
+    "ingredients": [
+      "doenjang",
+      "tofu",
+      "zucchini",
+      "potatoes",
+      "mushrooms",
+      "onions",
+      "chili peppers"
+    ],
+    "cooking_method": "Vegetables and protein are simmered in a broth flavored with doenjang.",
+    "cultural_note": "A fundamental dish in Korean cuisine, representing traditional fermented flavors."
+  },
+  "Tofu with Kimchi": {
+    "korean_name": "두부김치",
+    "english_name": "Tofu with Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "tofu",
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Tofu": {
+    "korean_name": "두부조림",
+    "english_name": "Braised Tofu",
+    "description": "A braised dish where tofu are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "tofu",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Peanuts": {
+    "korean_name": "땅콩조림",
+    "english_name": "Braised Peanuts",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Short Rib Patties": {
+    "korean_name": "떡갈비",
+    "english_name": "Grilled Short Rib Patties",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Rice Cake and Dumpling Soup": {
+    "korean_name": "떡국_만두국",
+    "english_name": "Rice Cake and Dumpling Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Rice Cake Skewers": {
+    "korean_name": "떡꼬치",
+    "english_name": "Rice Cake Skewers",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Rice Cakes": {
+    "korean_name": "떡볶이",
+    "english_name": "Spicy Rice Cakes",
+    "description": "Chewy cylindrical rice cakes cooked in a sweet and spicy red chili sauce, often with fish cakes, boiled eggs, and scallions.",
+    "category": "Street Food",
+    "ingredients": [
+      "rice cakes",
+      "gochujang",
+      "gochugaru",
+      "sugar",
+      "fish cakes",
+      "scallions"
+    ],
+    "cooking_method": "Rice cakes are simmered in a spicy-sweet sauce until tender and well-coated.",
+    "cultural_note": "One of the most popular Korean street foods, beloved by students and office workers."
+  },
+  "Ramen": {
+    "korean_name": "라면",
+    "english_name": "Ramen",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Ramen with Rice Cakes": {
+    "korean_name": "라볶이",
+    "english_name": "Spicy Ramen with Rice Cakes",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Buckwheat Noodles": {
+    "korean_name": "막국수",
+    "english_name": "Buckwheat Noodles",
+    "description": "A Korean noodle dish featuring savory toppings in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Dumplings": {
+    "korean_name": "만두",
+    "english_name": "Dumplings",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Fish Stew": {
+    "korean_name": "매운탕",
+    "english_name": "Spicy Fish Stew",
+    "description": "A traditional Korean soup/stew featuring seafood, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Sea Squirt": {
+    "korean_name": "멍게",
+    "english_name": "Sea Squirt",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Quail Eggs in Soy Sauce": {
+    "korean_name": "메추리알장조림",
+    "english_name": "Braised Quail Eggs in Soy Sauce",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "egg",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Anchovies": {
+    "korean_name": "멸치볶음",
+    "english_name": "Stir-fried Anchovies",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Radish Soup": {
+    "korean_name": "무국",
+    "english_name": "Radish Soup",
+    "description": "A traditional Korean soup/stew featuring vegetables, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "radish",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Radish Salad": {
+    "korean_name": "무생채",
+    "english_name": "Seasoned Radish Salad",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "radish",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Cold Buckwheat Noodles": {
+    "korean_name": "물냉면",
+    "english_name": "Cold Buckwheat Noodles",
+    "description": "Thin buckwheat noodles served in a cold, refreshing broth, topped with sliced pear, cucumber, radish, egg, and sometimes beef.",
+    "category": "Noodles",
+    "ingredients": [
+      "buckwheat noodles",
+      "cold beef broth",
+      "cucumber",
+      "pear",
+      "egg",
+      "radish"
+    ],
+    "cooking_method": "Noodles are cooked and chilled, then served in ice-cold broth.",
+    "cultural_note": "A summer favorite, especially popular in North Korean cuisine."
+  },
+  "Cold Raw Fish Soup": {
+    "korean_name": "물회",
+    "english_name": "Cold Raw Fish Soup",
+    "description": "A traditional Korean soup/stew featuring seafood, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seaweed Soup": {
+    "korean_name": "미역국",
+    "english_name": "Seaweed Soup",
+    "description": "A light, nutritious soup made with miyeok (seaweed), beef or seafood, and sesame oil. Rich in minerals.",
+    "category": "Soup",
+    "ingredients": [
+      "miyeok (seaweed)",
+      "beef or seafood",
+      "sesame oil",
+      "garlic",
+      "soy sauce"
+    ],
+    "cooking_method": "Seaweed is sautéed with protein and sesame oil, then simmered in broth.",
+    "cultural_note": "Traditionally eaten by new mothers for nutrition and on birthdays."
+  },
+  "Stir-fried Seaweed Stems": {
+    "korean_name": "미역줄기볶음",
+    "english_name": "Stir-fried Seaweed Stems",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Napa Cabbage Kimchi": {
+    "korean_name": "배추김치",
+    "english_name": "Napa Cabbage Kimchi",
+    "description": "The most iconic type of kimchi, made from napa cabbage fermented with a seasoning mix of chili powder, garlic, ginger, and salted seafood.",
+    "category": "Kimchi",
+    "ingredients": [
+      "napa cabbage",
+      "gochugaru",
+      "garlic",
+      "ginger",
+      "fish sauce",
+      "salted shrimp"
+    ],
+    "cooking_method": "Cabbage is salted, rinsed, then coated with seasoning paste and fermented.",
+    "cultural_note": "A UNESCO cultural heritage item and essential component of Korean meals."
+  },
+  "White Kimchi": {
+    "korean_name": "백김치",
+    "english_name": "White Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Boiled Pork Wraps": {
+    "korean_name": "보쌈",
+    "english_name": "Boiled Pork Wraps",
+    "description": "A traditional Korean dish made with pork and authentic Korean seasonings.",
+    "category": "Meat Dish",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Chive Kimchi": {
+    "korean_name": "부추김치",
+    "english_name": "Chive Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Dried Pollack Soup": {
+    "korean_name": "북엇국",
+    "english_name": "Dried Pollack Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Marinated Grilled Beef": {
+    "korean_name": "불고기",
+    "english_name": "Marinated Grilled Beef",
+    "description": "Thinly sliced beef marinated in a sweet and savory sauce made with soy sauce, sugar, garlic, and sesame oil, then grilled or stir-fried.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "beef",
+      "soy sauce",
+      "sugar",
+      "garlic",
+      "sesame oil",
+      "pear",
+      "onions"
+    ],
+    "cooking_method": "Meat is marinated for several hours, then grilled over high heat or stir-fried.",
+    "cultural_note": "Literally means 'fire meat'. One of the most popular Korean dishes internationally."
+  },
+  "Spicy Cold Noodles": {
+    "korean_name": "비빔냉면",
+    "english_name": "Spicy Cold Noodles",
+    "description": "A Korean noodle dish featuring savory toppings in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Bibimbap": {
+    "korean_name": "비빔밥",
+    "english_name": "Bibimbap",
+    "description": "A vibrant mixed rice dish topped with seasoned vegetables, beef, a fried egg, and gochujang (Korean chili paste). The name literally means 'mixed rice'.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "vegetables (spinach, bean sprouts, carrots, mushrooms)",
+      "beef",
+      "egg",
+      "gochujang",
+      "sesame oil"
+    ],
+    "cooking_method": "Each ingredient is prepared separately and arranged over warm rice. Mixed together before eating.",
+    "cultural_note": "One of the most iconic Korean dishes, representing harmony and balance with its colorful ingredients."
+  },
+  "Live Octopus": {
+    "korean_name": "산낙지",
+    "english_name": "Live Octopus",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Pork Belly": {
+    "korean_name": "삼겹살",
+    "english_name": "Grilled Pork Belly",
+    "description": "Thick slices of pork belly grilled at the table and typically wrapped in lettuce with garlic, peppers, and ssamjang (Korean dipping sauce).",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "pork belly",
+      "lettuce",
+      "garlic",
+      "peppers",
+      "ssamjang",
+      "kimchi"
+    ],
+    "cooking_method": "Pork is grilled on a tabletop grill and eaten with various accompaniments.",
+    "cultural_note": "A favorite at Korean BBQ restaurants, often enjoyed with soju."
+  },
+  "Ginseng Chicken Soup": {
+    "korean_name": "삼계탕",
+    "english_name": "Ginseng Chicken Soup",
+    "description": "A nourishing soup made with a whole young chicken stuffed with glutinous rice, ginseng, jujube, and garlic, simmered until tender.",
+    "category": "Soup",
+    "ingredients": [
+      "whole young chicken",
+      "glutinous rice",
+      "Korean ginseng",
+      "jujube",
+      "garlic",
+      "ginger"
+    ],
+    "cooking_method": "Chicken is stuffed with rice and ingredients, then slow-cooked in broth.",
+    "cultural_note": "Traditionally eaten during the hottest days of summer (boknal) to restore energy."
+  },
+  "Shrimp Fried Rice": {
+    "korean_name": "새우볶음밥",
+    "english_name": "Shrimp Fried Rice",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Shrimp Tempura": {
+    "korean_name": "새우튀김",
+    "english_name": "Shrimp Tempura",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Fish Pancake": {
+    "korean_name": "생선전",
+    "english_name": "Fish Pancake",
+    "description": "A savory Korean pancake made with seafood, pan-fried until crispy on the outside.",
+    "category": "Pancake",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Pan-fried until golden",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Sausage": {
+    "korean_name": "소세지볶음",
+    "english_name": "Stir-fried Sausage",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Rice Cake with Sweet Filling": {
+    "korean_name": "송편",
+    "english_name": "Rice Cake with Sweet Filling",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Boiled Pork Slices": {
+    "korean_name": "수육",
+    "english_name": "Boiled Pork Slices",
+    "description": "A traditional Korean dish made with pork and authentic Korean seasonings.",
+    "category": "Meat Dish",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Cinnamon Punch": {
+    "korean_name": "수정과",
+    "english_name": "Cinnamon Punch",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Dessert/Beverage",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Hand-torn Noodle Soup": {
+    "korean_name": "수제비",
+    "english_name": "Hand-torn Noodle Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Bean Sprouts": {
+    "korean_name": "숙주나물",
+    "english_name": "Seasoned Bean Sprouts",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "beans",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Korean Blood Sausage": {
+    "korean_name": "순대",
+    "english_name": "Korean Blood Sausage",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Soft Tofu Stew": {
+    "korean_name": "순두부찌개",
+    "english_name": "Soft Tofu Stew",
+    "description": "A spicy, comforting stew featuring soft, silky tofu in a flavorful broth with vegetables, meat or seafood, and an egg.",
+    "category": "Stew",
+    "ingredients": [
+      "soft tofu",
+      "gochugaru",
+      "seafood or pork",
+      "egg",
+      "vegetables",
+      "garlic"
+    ],
+    "cooking_method": "Ingredients are simmered together and served bubbling hot in a stone pot.",
+    "cultural_note": "Perfect comfort food, often eaten with rice to balance the spiciness."
+  },
+  "Seasoned Spinach": {
+    "korean_name": "시금치나물",
+    "english_name": "Seasoned Spinach",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "spinach",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Dried Radish Greens Soup": {
+    "korean_name": "시래기국",
+    "english_name": "Dried Radish Greens Soup",
+    "description": "A traditional Korean soup/stew featuring vegetables, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "radish",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Sweet Rice Drink": {
+    "korean_name": "식혜",
+    "english_name": "Sweet Rice Drink",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Flying Fish Roe Rice": {
+    "korean_name": "알밥",
+    "english_name": "Flying Fish Roe Rice",
+    "description": "A Korean rice-based dish with seafood, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "fish or seafood",
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Zucchini": {
+    "korean_name": "애호박볶음",
+    "english_name": "Stir-fried Zucchini",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Deep-fried Honey Cookie": {
+    "korean_name": "약과",
+    "english_name": "Deep-fried Honey Cookie",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Sweet Rice with Jujube": {
+    "korean_name": "약식",
+    "english_name": "Sweet Rice with Jujube",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Marinated Crab": {
+    "korean_name": "양념게장",
+    "english_name": "Spicy Marinated Crab",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Marinated and then cooked",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Fried Chicken": {
+    "korean_name": "양념치킨",
+    "english_name": "Seasoned Fried Chicken",
+    "description": "Crispy fried chicken coated in a sweet, spicy, and sticky sauce made with gochujang and garlic.",
+    "category": "Fried Food",
+    "ingredients": [
+      "fried chicken",
+      "gochujang",
+      "garlic",
+      "soy sauce",
+      "honey",
+      "sesame seeds"
+    ],
+    "cooking_method": "Fried chicken is tossed in a flavorful sauce while still hot.",
+    "cultural_note": "A popular late-night snack, especially when paired with beer."
+  },
+  "Stir-fried Fish Cake": {
+    "korean_name": "어묵볶음",
+    "english_name": "Stir-fried Fish Cake",
+    "description": "Crispy fried seafood with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Lotus Root": {
+    "korean_name": "연근조림",
+    "english_name": "Braised Lotus Root",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Young Radish Noodles": {
+    "korean_name": "열무국수",
+    "english_name": "Young Radish Noodles",
+    "description": "A Korean noodle dish featuring vegetables in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "radish",
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Young Radish Kimchi": {
+    "korean_name": "열무김치",
+    "english_name": "Young Radish Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "radish",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stuffed Cucumber Kimchi": {
+    "korean_name": "오이소박이",
+    "english_name": "Stuffed Cucumber Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Stir-fried Shredded Squid": {
+    "korean_name": "오징어채볶음",
+    "english_name": "Stir-fried Shredded Squid",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Deep-fried Squid": {
+    "korean_name": "오징어튀김",
+    "english_name": "Deep-fried Squid",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Burdock Root": {
+    "korean_name": "우엉조림",
+    "english_name": "Braised Burdock Root",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Inari Sushi": {
+    "korean_name": "유부초밥",
+    "english_name": "Inari Sushi",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Beef Soup": {
+    "korean_name": "육개장",
+    "english_name": "Spicy Beef Soup",
+    "description": "A traditional Korean soup/stew featuring beef, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Beef Tartare": {
+    "korean_name": "육회",
+    "english_name": "Beef Tartare",
+    "description": "A traditional Korean dish made with beef and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Banquet Noodles": {
+    "korean_name": "잔치국수",
+    "english_name": "Banquet Noodles",
+    "description": "A Korean noodle dish featuring savory toppings in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Multigrain Rice": {
+    "korean_name": "잡곡밥",
+    "english_name": "Multigrain Rice",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Glass Noodles with Vegetables": {
+    "korean_name": "잡채",
+    "english_name": "Glass Noodles with Vegetables",
+    "description": "Stir-fried sweet potato glass noodles with colorful vegetables and meat, seasoned with soy sauce and sesame oil.",
+    "category": "Side Dish",
+    "ingredients": [
+      "sweet potato noodles",
+      "beef or pork",
+      "vegetables",
+      "soy sauce",
+      "sesame oil",
+      "sugar"
+    ],
+    "cooking_method": "Noodles and ingredients are stir-fried separately then combined.",
+    "cultural_note": "A popular side dish at celebrations and a favorite in Korean lunch boxes."
+  },
+  "Grilled Eel": {
+    "korean_name": "장어구이",
+    "english_name": "Grilled Eel",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Beef in Soy Sauce": {
+    "korean_name": "장조림",
+    "english_name": "Braised Beef in Soy Sauce",
+    "description": "A braised dish where beef are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "beef",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Abalone Porridge": {
+    "korean_name": "전복죽",
+    "english_name": "Abalone Porridge",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Salted Seafood": {
+    "korean_name": "젓갈",
+    "english_name": "Salted Seafood",
+    "description": "A traditional Korean dish made with seafood and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Stir-fried Pork": {
+    "korean_name": "제육볶음",
+    "english_name": "Spicy Stir-fried Pork",
+    "description": "Crispy fried pork with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Clams": {
+    "korean_name": "조개구이",
+    "english_name": "Grilled Clams",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Croaker": {
+    "korean_name": "조기구이",
+    "english_name": "Grilled Croaker",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pork Hock": {
+    "korean_name": "족발",
+    "english_name": "Pork Hock",
+    "description": "A traditional Korean dish made with pork and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Stir-fried Webfoot Octopus": {
+    "korean_name": "주꾸미볶음",
+    "english_name": "Spicy Stir-fried Webfoot Octopus",
+    "description": "Crispy fried dish with Korean-style seasoning and preparation.",
+    "category": "Fried Food",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Deep-fried until crispy",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Rice Balls": {
+    "korean_name": "주먹밥",
+    "english_name": "Rice Balls",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "rice",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Black Bean Noodles": {
+    "korean_name": "짜장면",
+    "english_name": "Black Bean Noodles",
+    "description": "Thick wheat noodles topped with a savory black bean sauce made from chunjang (black bean paste), pork, and vegetables.",
+    "category": "Noodles",
+    "ingredients": [
+      "wheat noodles",
+      "chunjang (black bean paste)",
+      "pork",
+      "onions",
+      "zucchini",
+      "potatoes"
+    ],
+    "cooking_method": "Black bean sauce is stir-fried and served over boiled noodles.",
+    "cultural_note": "Originally Chinese-Korean cuisine, now a beloved comfort food often delivered."
+  },
+  "Spicy Seafood Noodles": {
+    "korean_name": "짬뽕",
+    "english_name": "Spicy Seafood Noodles",
+    "description": "Spicy noodle soup loaded with seafood like shrimp, squid, and mussels in a rich, fiery red broth.",
+    "category": "Noodles",
+    "ingredients": [
+      "wheat noodles",
+      "seafood",
+      "gochugaru",
+      "vegetables",
+      "garlic",
+      "chicken broth"
+    ],
+    "cooking_method": "Seafood and vegetables are cooked in spicy broth, served over noodles.",
+    "cultural_note": "Another Chinese-Korean dish, often ordered alongside jjajangmyeon."
+  },
+  "Chewy Spicy Noodles": {
+    "korean_name": "쫄면",
+    "english_name": "Chewy Spicy Noodles",
+    "description": "A Korean noodle dish featuring savory toppings in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Chicken": {
+    "korean_name": "찜닭",
+    "english_name": "Braised Chicken",
+    "description": "A braised dish where chicken are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "chicken",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Ponytail Kimchi": {
+    "korean_name": "총각김치",
+    "english_name": "Ponytail Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Loach Soup": {
+    "korean_name": "추어탕",
+    "english_name": "Loach Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Knife-cut Noodles": {
+    "korean_name": "칼국수",
+    "english_name": "Knife-cut Noodles",
+    "description": "A Korean noodle dish featuring savory toppings in a flavorful broth or sauce.",
+    "category": "Noodles",
+    "ingredients": [
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Pollack": {
+    "korean_name": "코다리조림",
+    "english_name": "Braised Pollack",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Soybean Noodle Soup": {
+    "korean_name": "콩국수",
+    "english_name": "Soybean Noodle Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "beans",
+      "noodles",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Soybean Sprout Soup": {
+    "korean_name": "콩나물국",
+    "english_name": "Soybean Sprout Soup",
+    "description": "A traditional Korean soup/stew featuring flavorful ingredients, simmered in a savory broth with vegetables and seasonings.",
+    "category": "Soup/Stew",
+    "ingredients": [
+      "beans",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Simmered in broth",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Soybean Sprouts": {
+    "korean_name": "콩나물무침",
+    "english_name": "Seasoned Soybean Sprouts",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "beans",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Braised Black Beans": {
+    "korean_name": "콩자반",
+    "english_name": "Braised Black Beans",
+    "description": "A braised dish where ingredients are slow-cooked in a savory sauce until tender and flavorful.",
+    "category": "Braised Dish",
+    "ingredients": [
+      "beans",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Braised in sauce until tender",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Green Onion Kimchi": {
+    "korean_name": "파김치",
+    "english_name": "Green Onion Kimchi",
+    "description": "A fermented vegetable dish, seasoned with chili powder, garlic, and other spices. An essential part of Korean cuisine.",
+    "category": "Kimchi",
+    "ingredients": [
+      "kimchi",
+      "gochugaru (chili powder)",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Green Onion Pancake": {
+    "korean_name": "파전",
+    "english_name": "Green Onion Pancake",
+    "description": "A savory Korean pancake made with vegetables, pan-fried until crispy on the outside.",
+    "category": "Pancake",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Pan-fried until golden",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pressed Boiled Pork": {
+    "korean_name": "편육",
+    "english_name": "Pressed Boiled Pork",
+    "description": "A traditional Korean dish made with pork and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "pork",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pizza": {
+    "korean_name": "피자",
+    "english_name": "Pizza",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Traditional Korean Sweets": {
+    "korean_name": "한과",
+    "english_name": "Traditional Korean Sweets",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Dessert/Beverage",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Seafood Steamed Dish": {
+    "korean_name": "해물찜",
+    "english_name": "Spicy Seafood Steamed Dish",
+    "description": "A traditional Korean dish made with seafood and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Steamed to perfection",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pumpkin Pancake": {
+    "korean_name": "호박전",
+    "english_name": "Pumpkin Pancake",
+    "description": "A savory Korean pancake made with vegetables, pan-fried until crispy on the outside.",
+    "category": "Pancake",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Pan-fried until golden",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Pumpkin Porridge": {
+    "korean_name": "호박죽",
+    "english_name": "Pumpkin Porridge",
+    "description": "A Korean rice-based dish with various toppings, providing a satisfying and complete meal.",
+    "category": "Rice Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Seasoned Skate": {
+    "korean_name": "홍어무침",
+    "english_name": "Seasoned Skate",
+    "description": "A traditional Korean side dish featuring vegetables, seasoned with sesame oil and other seasonings.",
+    "category": "Side Dish (Banchan)",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Seasoned with Korean spices and sauces",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Grilled Dried Pollack": {
+    "korean_name": "황태구이",
+    "english_name": "Grilled Dried Pollack",
+    "description": "Korean-style grilled meat, often marinated in a flavorful sauce and cooked to perfection.",
+    "category": "Grilled Meat",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Grilled over high heat",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Spicy Raw Fish Salad": {
+    "korean_name": "회무침",
+    "english_name": "Spicy Raw Fish Salad",
+    "description": "A traditional Korean dish made with seafood and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "fish or seafood",
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  },
+  "Fried Chicken": {
+    "korean_name": "후라이드치킨",
+    "english_name": "Fried Chicken",
+    "description": "Crispy fried chicken with an extra-crunchy coating, often double-fried for maximum crispiness.",
+    "category": "Fried Food",
+    "ingredients": [
+      "chicken",
+      "flour",
+      "cornstarch",
+      "seasonings"
+    ],
+    "cooking_method": "Chicken is coated and double-fried to achieve signature crispiness.",
+    "cultural_note": "Korean fried chicken is famous worldwide for its incredible crunch. Perfect with beer (chimaek)."
+  },
+  "Smoked Duck": {
+    "korean_name": "훈제오리",
+    "english_name": "Smoked Duck",
+    "description": "A traditional Korean dish made with quality ingredients and authentic Korean seasonings.",
+    "category": "Korean Dish",
+    "ingredients": [
+      "garlic",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "cooking_method": "Prepared using traditional Korean cooking methods",
+    "cultural_note": "A traditional Korean dish enjoyed across the country."
+  }
+}
