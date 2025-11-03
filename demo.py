@@ -143,6 +143,23 @@ def main():
         help='Number of samples for batch mode'
     )
     parser.add_argument(
+        '--classifier',
+        type=str,
+        choices=['clip', 'cnn', 'vit'],
+        default='clip',
+        help='Type of classifier to use'
+    )
+    parser.add_argument(
+        '--cnn-model-path',
+        type=str,
+        help='Path to trained CNN model'
+    )
+    parser.add_argument(
+        '--vit-model-path',
+        type=str,
+        help='Path to trained ViT model'
+    )
+    parser.add_argument(
         '--use-llm',
         action='store_true',
         help='Use LLM for text generation'
@@ -163,6 +180,9 @@ def main():
     # Create pipeline
     pipeline = create_pipeline(
         knowledge_base_path=config.DB_PATH,
+        classifier_type=args.classifier,
+        cnn_model_path=args.cnn_model_path,
+        vit_model_path=args.vit_model_path,
         use_llm=args.use_llm
     )
     

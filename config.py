@@ -14,6 +14,17 @@ DB_PATH = os.path.join(BASE_DIR, "food_knowledge_base.json")
 CLIP_MODEL_NAME = "openai/clip-vit-base-patch32"
 LLM_MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"  # Tiny LLM for generation
 
+# CNN Model configurations
+CNN_MODEL_TYPE = "resnet50"  # Options: resnet50, resnet101, efficientnet_b0-b7, mobilenet_v2
+CNN_MODEL_PATH = os.path.join(MODEL_DIR, "cnn_trained")  # Path to trained CNN model
+
+# ViT Model configurations
+VIT_MODEL_TYPE = "vit_base_patch16_224"  # Options: vit_tiny_patch16_224, vit_small_patch16_224, vit_base_patch16_224, vit_large_patch16_224
+VIT_MODEL_PATH = os.path.join(MODEL_DIR, "vit_trained")  # Path to trained ViT model
+
+# Default classifier type ('clip', 'cnn', or 'vit')
+CLASSIFIER_TYPE = "clip"
+
 # Training configurations
 BATCH_SIZE = 32
 LEARNING_RATE = 1e-5

@@ -9,10 +9,10 @@
 cd /home/aikusrv04/hansik_clip
 
 # Build the knowledge base
-python build_database.py
+python3 build_database.py
 
 # Test the system
-python test_pipeline.py
+python3 test_pipeline.py
 ```
 
 ### 2. Basic Usage
@@ -20,7 +20,7 @@ python test_pipeline.py
 #### Option A: Interactive Demo (Recommended)
 
 ```bash
-python demo.py --mode interactive
+python3 demo.py --mode interactive
 ```
 
 Commands in interactive mode:
@@ -33,13 +33,13 @@ Commands in interactive mode:
 #### Option B: Analyze Single Image
 
 ```bash
-python inference.py --image dataset/kfood_dataset/Bibimbap/Img_072_0001.jpg
+python3 inference.py --image dataset/kfood_dataset/Bibimbap/Img_072_0001.jpg
 ```
 
 #### Option C: Batch Analysis
 
 ```bash
-python demo.py --mode batch --num-samples 10
+python3 demo.py --mode batch --num-samples 10
 ```
 
 ## Advanced Usage
@@ -48,34 +48,34 @@ python demo.py --mode batch --num-samples 10
 
 ```bash
 # This will use TinyLLaMA for text generation (slower, ~2-3 seconds per image)
-python inference.py --image path/to/image.jpg --use-llm
+python3 inference.py --image path/to/image.jpg --use-llm
 ```
 
 ### 2. Save Results
 
 ```bash
 # Save as text file
-python inference.py --image path/to/image.jpg --output result.txt --format text
+python3 inference.py --image path/to/image.jpg --output result.txt --format text
 
 # Save as JSON
-python inference.py --image path/to/image.jpg --output result.json --format json
+python3 inference.py --image path/to/image.jpg --output result.json --format json
 ```
 
 ### 3. Adjust Confidence Threshold
 
 ```bash
 # Show only high-confidence predictions
-python inference.py --image path/to/image.jpg --confidence-threshold 0.01
+python3 inference.py --image path/to/image.jpg --confidence-threshold 0.01
 
 # Show all predictions (very low threshold)
-python inference.py --image path/to/image.jpg --confidence-threshold 0.0001
+python3 inference.py --image path/to/image.jpg --confidence-threshold 0.0001
 ```
 
 ### 4. Show More Predictions
 
 ```bash
 # Show top 10 predictions instead of 3
-python inference.py --image path/to/image.jpg --top-k 10
+python3 inference.py --image path/to/image.jpg --top-k 10
 ```
 
 ## Python API Usage
@@ -162,16 +162,16 @@ with open('batch_results.json', 'w') as f:
 
 ```bash
 # Test on 10 images per food category
-python evaluate.py --samples-per-class 10
+python3 evaluate.py --samples-per-class 10
 
 # Test on 20 images and save results
-python evaluate.py --samples-per-class 20 --output evaluation.json
+python3 evaluate.py --samples-per-class 20 --output evaluation.json
 ```
 
 ### Run Full Test Suite
 
 ```bash
-python test_pipeline.py
+python3 test_pipeline.py
 ```
 
 ## Training (Optional)
@@ -180,16 +180,16 @@ The system works well with pretrained CLIP in zero-shot mode. Fine-tuning is opt
 
 ```bash
 # Fine-tune CLIP on Korean food dataset
-python train_classifier.py --epochs 10 --batch-size 32 --lr 1e-5 --output-dir models/clip_finetuned
+python3 train_classifier.py --epochs 10 --batch-size 32 --lr 1e-5 --output-dir models/clip_finetuned
 
 # Use fine-tuned model
-python inference.py --image path/to/image.jpg --model-path models/clip_finetuned
+python3 inference.py --image path/to/image.jpg --model-path models/clip_finetuned
 ```
 
 ## Troubleshooting
 
 ### Issue: "Knowledge base not found"
-**Solution**: Run `python build_database.py` first
+**Solution**: Run `python3 build_database.py` first
 
 ### Issue: "CUDA out of memory"
 **Solution**: The system works fine on CPU. If on GPU, reduce batch size in config.py
@@ -223,12 +223,12 @@ python inference.py --image path/to/image.jpg --model-path models/clip_finetuned
 ### Workflow 1: Identify Unknown Korean Food
 
 1. Take a photo or have an image
-2. Run: `python inference.py --image photo.jpg`
+2. Run: `python3 inference.py --image photo.jpg`
 3. Read the explanation to learn about the dish
 
 ### Workflow 2: Browse Korean Foods
 
-1. Run: `python demo.py --mode interactive`
+1. Run: `python3 demo.py --mode interactive`
 2. Type `list` to see all foods
 3. Type `info Bibimbap` to learn about specific foods
 4. Type `random` to see examples
@@ -263,7 +263,7 @@ def identify_food(image_path):
 
 ## Need Help?
 
-1. Run test suite: `python test_pipeline.py`
+1. Run test suite: `python3 test_pipeline.py`
 2. Check this guide
 3. Review README.md for technical details
 

@@ -48,6 +48,35 @@ def main():
         help='Minimum confidence threshold'
     )
     parser.add_argument(
+        '--classifier',
+        type=str,
+        choices=['clip', 'cnn', 'vit'],
+        default='clip',
+        help='Type of classifier to use (clip, cnn, or vit)'
+    )
+    parser.add_argument(
+        '--cnn-model-type',
+        type=str,
+        default='resnet50',
+        help='CNN model type (resnet50, resnet101, efficientnet_b0-b7, mobilenet_v2)'
+    )
+    parser.add_argument(
+        '--cnn-model-path',
+        type=str,
+        help='Path to trained CNN model (for CNN classifier)'
+    )
+    parser.add_argument(
+        '--vit-model-type',
+        type=str,
+        default='vit_base_patch16_224',
+        help='ViT model type (vit_tiny/small/base/large_patch16_224)'
+    )
+    parser.add_argument(
+        '--vit-model-path',
+        type=str,
+        help='Path to trained ViT model (for ViT classifier)'
+    )
+    parser.add_argument(
         '--use-llm',
         action='store_true',
         help='Use LLM for text generation (slower but more natural)'
@@ -81,6 +110,11 @@ def main():
     try:
         pipeline = create_pipeline(
             knowledge_base_path=config.DB_PATH,
+            classifier_type=args.classifier,
+            cnn_model_type=args.cnn_model_type,
+            cnn_model_path=args.cnn_model_path,
+            vit_model_type=args.vit_model_type,
+            vit_model_path=args.vit_model_path,
             use_llm=args.use_llm,
             llm_model=args.llm_model
         )

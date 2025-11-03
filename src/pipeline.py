@@ -8,6 +8,8 @@ from PIL import Image
 import json
 
 from .classifier import KoreanFoodClassifier, create_food_classifier
+from .cnn_classifier import CNNFoodClassifier, create_cnn_classifier
+from .vit_classifier import ViTFoodClassifier, create_vit_classifier
 from .knowledge_base import FoodKnowledgeBase
 from .text_generator import create_explainer, SimpleFoodExplainer, FoodExplainer
 
@@ -25,7 +27,12 @@ class KoreanFoodPipeline:
     def __init__(
         self,
         knowledge_base_path: str,
+        classifier_type: str = "clip",  # 'clip', 'cnn', or 'vit'
         clip_model: str = "openai/clip-vit-base-patch32",
+        cnn_model_type: str = "resnet50",
+        cnn_model_path: str = None,
+        vit_model_type: str = "vit_base_patch16_224",
+        vit_model_path: str = None,
         use_llm: bool = False,  # Set to False by default for faster inference
         llm_model: str = "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
         device: str = None
@@ -35,7 +42,12 @@ class KoreanFoodPipeline:
         
         Args:
             knowledge_base_path: Path to the food knowledge base JSON
-            clip_model: CLIP model name
+            classifier_type: Type of classifier to use ('clip', 'cnn', or 'vit')
+            clip_model: CLIP model name (if using CLIP)
+            cnn_model_type: CNN architecture (if using CNN)
+            cnn_model_path: Path to trained CNN model (if using CNN)
+            vit_model_type: ViT architecture (if using ViT)
+            vit_model_path: Path to trained ViT model (if using ViT)
             use_llm: Whether to use LLM for generation (slower but more natural)
             llm_model: LLM model name
             device: Device to run on
@@ -50,9 +62,44 @@ class KoreanFoodPipeline:
         food_names = self.knowledge_base.get_food_names()
         print(f"Loaded {len(food_names)} food categories")
         
-        # Initialize classifier
-        print("\n[2/3] Loading CLIP classifier...")
-        self.classifier = create_food_classifier(food_names, model_name=clip_model)
+        # Initialize classifier based on type
+        self.classifier_type = classifier_type.lower()
+        
+        if self.classifier_type == 'clip':
+            print("\n[2/3] Loading CLIP classifier...")
+            self.classifier = create_food_classifier(food_names, model_name=clip_model)
+        
+        elif self.classifier_type == 'cnn':
+            print("\n[2/3] Loading CNN classifier...")
+            self.classifier = create_cnn_classifier(
+                food_names, 
+                model_type=cnn_model_type,
+                model_path=cnn_model_path
+            )
+            if cnn_model_path:
+                print(f"Loaded trained CNN model from {cnn_model_path}")
+            else:
+                print(f"Using pretrained {cnn_model_type} (needs training on Korean food)")
+        
+        elif self.classifier_type == 'vit':
+            print("\n[2/3] Loading ViT classifier...")
+            try:
+                self.classifier = create_vit_classifier(
+                    food_names,
+                    model_type=vit_model_type,
+                    model_path=vit_model_path
+                )
+                if vit_model_path:
+                    print(f"Loaded trained ViT model from {vit_model_path}")
+                else:
+                    print(f"Using pretrained {vit_model_type} (needs training on Korean food)")
+            except ImportError as e:
+                print(f"Error: {e}")
+                print("Please install timm: pip install timm")
+                raise
+        
+        else:
+            raise ValueError(f"Unknown classifier type: {classifier_type}. Use 'clip', 'cnn', or 'vit'")
         
         # Initialize text generator
         print("\n[3/3] Loading text generator...")
@@ -234,6 +281,7 @@ class KoreanFoodPipeline:
 
 def create_pipeline(
     knowledge_base_path: str,
+    classifier_type: str = "clip",
     use_llm: bool = False,
     **kwargs
 ) -> KoreanFoodPipeline:
@@ -242,14 +290,16 @@ def create_pipeline(
     
     Args:
         knowledge_base_path: Path to knowledge base JSON
+        classifier_type: Type of classifier ('clip', 'cnn', or 'vit')
         use_llm: Whether to use LLM for text generation
-        **kwargs: Additional arguments for pipeline
+        **kwargs: Additional arguments for pipeline (cnn_model_path, vit_model_path, etc.)
     
     Returns:
         Initialized KoreanFoodPipeline
     """
     return KoreanFoodPipeline(
         knowledge_base_path=knowledge_base_path,
+        classifier_type=classifier_type,
         use_llm=use_llm,
         **kwargs
     )

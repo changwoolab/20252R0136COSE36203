@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ```bash
 # Generate descriptions for all 150 Korean foods
-python build_database.py
+python3 build_database.py
 ```
 
 Output: `food_knowledge_base.json` with 150 food entries
@@ -68,20 +68,20 @@ Output: `food_knowledge_base.json` with 150 food entries
 
 ```bash
 # Run all tests to verify installation
-python test_pipeline.py
+python3 test_pipeline.py
 ```
 
 ### 4. Try the Demo
 
 ```bash
 # Interactive demo
-python demo.py --mode interactive
+python3 demo.py --mode interactive
 
 # Single image demo
-python demo.py --mode single --image path/to/image.jpg
+python3 demo.py --mode single --image path/to/image.jpg
 
 # Batch demo with 10 random images
-python demo.py --mode batch --num-samples 10
+python3 demo.py --mode batch --num-samples 10
 ```
 
 ## 💻 Usage Examples
@@ -90,16 +90,16 @@ python demo.py --mode batch --num-samples 10
 
 ```bash
 # Analyze a Korean food image
-python inference.py --image path/to/bibimbap.jpg
+python3 inference.py --image path/to/bibimbap.jpg
 
 # Save result as JSON
-python inference.py --image path/to/image.jpg --output result.json --format json
+python3 inference.py --image path/to/image.jpg --output result.json --format json
 
 # Use LLM for more natural text (slower)
-python inference.py --image path/to/image.jpg --use-llm
+python3 inference.py --image path/to/image.jpg --use-llm
 
 # Show top 5 predictions
-python inference.py --image path/to/image.jpg --top-k 5
+python3 inference.py --image path/to/image.jpg --top-k 5
 ```
 
 ### Python API
@@ -130,7 +130,7 @@ explanation = pipeline.get_food_explanation('Bibimbap')
 
 ```bash
 # Evaluate classifier on dataset
-python evaluate.py --samples-per-class 10 --output eval_results.json
+python3 evaluate.py --samples-per-class 10 --output eval_results.json
 ```
 
 ### Training (Optional)
@@ -139,7 +139,7 @@ The system works well with pretrained CLIP in zero-shot mode. However, you can f
 
 ```bash
 # Fine-tune CLIP on Korean food dataset
-python train_classifier.py --epochs 10 --batch-size 32 --lr 1e-5
+python3 train_classifier.py --epochs 10 --batch-size 32 --lr 1e-5
 ```
 
 ## 📊 Example Output
@@ -252,8 +252,8 @@ On the K-Food dataset (zero-shot CLIP):
 
 To add new foods or improve descriptions:
 1. Update `src/knowledge_base.py` with new entries
-2. Rebuild database: `python build_database.py`
-3. Test: `python test_pipeline.py`
+2. Rebuild database: `python3 build_database.py`
+3. Test: `python3 test_pipeline.py`
 
 ## 📝 Notes
 
