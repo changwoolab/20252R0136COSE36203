@@ -24,22 +24,36 @@ class FoodExplainer:
         
         # Load tokenizer and model
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        
+        # Track if we're using device_map for accelerate
+        self.use_device_map = self.device == 'cuda'
+        
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name,
             torch_dtype=torch.float16 if self.device == 'cuda' else torch.float32,
-            device_map="auto" if self.device == 'cuda' else None
+            device_map="auto" if self.use_device_map else None
         )
         
         if self.device == 'cpu':
             self.model = self.model.to(self.device)
         
         # Create pipeline
-        self.generator = pipeline(
-            "text-generation",
-            model=self.model,
-            tokenizer=self.tokenizer,
-            device=0 if self.device == 'cuda' else -1
-        )
+        # Don't pass device argument if using device_map (accelerate handles it)
+        if self.use_device_map:
+            # When using device_map, don't specify device (accelerate handles it)
+            self.generator = pipeline(
+                "text-generation",
+                model=self.model,
+                tokenizer=self.tokenizer
+            )
+        else:
+            # For CPU, explicitly set device
+            self.generator = pipeline(
+                "text-generation",
+                model=self.model,
+                tokenizer=self.tokenizer,
+                device=-1
+            )
         
         print(f"Text generation model loaded successfully")
     
@@ -47,7 +61,7 @@ class FoodExplainer:
         self, 
         food_name: str, 
         food_info: Dict,
-        max_new_tokens: int = 200,
+        max_new_tokens: int = 100,
         temperature: float = 0.7
     ) -> str:
         """
@@ -129,7 +143,7 @@ class FoodExplainer:
         
         # Create prompt with context but let LLM generate the response
         prompt = f"""<|system|>
-You are a Korean food expert. Provide clear, informative, and engaging descriptions of Korean dishes in 2-3 paragraphs.</s>
+You are a Korean food expert. Provide clear and concise descriptions of Korean dishes in 1-2 short paragraphs.</s>
 <|user|>
 Tell me about {food_name} ({korean_name}). Here's some information about it:
 - Category: {category}

@@ -219,8 +219,27 @@ class ViTFoodClassifier:
     
     def load_model(self, model_path: str):
         """Load a saved model"""
+        # Handle common mistake: user passes model.pth file instead of directory
+        if model_path.endswith('.pth') or model_path.endswith('.pt'):
+            print(f"⚠️  Warning: model_path should be a directory, not a file")
+            print(f"    You passed: {model_path}")
+            model_path = os.path.dirname(model_path)
+            print(f"    Using directory: {model_path}")
+        
+        # Check if directory exists
+        if not os.path.isdir(model_path):
+            raise ValueError(f"Model directory not found: {model_path}")
+        
         # Load class mappings
         mappings_file = os.path.join(model_path, 'class_mappings.json')
+        if not os.path.exists(mappings_file):
+            raise FileNotFoundError(
+                f"class_mappings.json not found in {model_path}\n"
+                f"Make sure you're pointing to a directory containing:\n"
+                f"  - model.pth\n"
+                f"  - class_mappings.json"
+            )
+        
         with open(mappings_file, 'r') as f:
             mappings = json.load(f)
         
@@ -311,12 +330,28 @@ def create_vit_classifier(
     
     Args:
         food_names: List of food class names
-        model_type: Type of ViT model
+        model_type: Type of ViT model (ignored if model_path is provided)
         model_path: Path to saved model (optional)
     
     Returns:
         Initialized ViTFoodClassifier
     """
+    # If model_path is provided, load the model type from the checkpoint
+    if model_path:
+        # Handle file path vs directory path
+        if model_path.endswith('.pth') or model_path.endswith('.pt'):
+            model_path = os.path.dirname(model_path)
+        
+        if os.path.exists(model_path):
+            # Load model type from checkpoint
+            mappings_file = os.path.join(model_path, 'class_mappings.json')
+            if os.path.exists(mappings_file):
+                import json
+                with open(mappings_file, 'r') as f:
+                    mappings = json.load(f)
+                model_type = mappings.get('model_type', model_type)
+                print(f"Detected model type from checkpoint: {model_type}")
+    
     classifier = ViTFoodClassifier(model_type=model_type, num_classes=len(food_names))
     classifier.set_food_classes(food_names)
     
