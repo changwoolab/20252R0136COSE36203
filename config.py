@@ -9,6 +9,7 @@ DATASET_DIR = os.path.join(BASE_DIR, "dataset", "kfood_dataset")
 CSV_PATH = os.path.join(BASE_DIR, "dataset", "kfood_kor_eng_match.csv")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 DB_PATH = os.path.join(BASE_DIR, "food_knowledge_base.json")
+ATTRIBUTE_DB_PATH = os.path.join(BASE_DIR, "attribute_database.json")
 
 # Model configurations
 CLIP_MODEL_NAME = "openai/clip-vit-base-patch32"

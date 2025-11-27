@@ -77,6 +77,11 @@ def main():
         help='Path to trained ViT model (for ViT classifier)'
     )
     parser.add_argument(
+        '--clip-model-path',
+        type=str,
+        help='Path to fine-tuned CLIP model (for CLIP classifier)'
+    )
+    parser.add_argument(
         '--use-llm',
         action='store_true',
         help='Use LLM for text generation (slower but more natural)'
@@ -115,8 +120,10 @@ def main():
             cnn_model_path=args.cnn_model_path,
             vit_model_type=args.vit_model_type,
             vit_model_path=args.vit_model_path,
+            clip_model_path=args.clip_model_path,
             use_llm=args.use_llm,
-            llm_model=args.llm_model
+            llm_model=args.llm_model,
+            attribute_db_path=config.ATTRIBUTE_DB_PATH if hasattr(config, 'ATTRIBUTE_DB_PATH') else None
         )
     except Exception as e:
         print(f"Error initializing pipeline: {e}")

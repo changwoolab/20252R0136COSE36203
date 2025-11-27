@@ -31,7 +31,8 @@ class FoodKnowledgeBase:
     
     def add_food(self, english_name: str, korean_name: str, description: str, 
                  category: str = "", ingredients: list = None, 
-                 cooking_method: str = "", cultural_note: str = ""):
+                 cooking_method: str = "", cultural_note: str = "",
+                 attributes: str = ""):
         """Add or update food information"""
         self.knowledge[english_name] = {
             "korean_name": korean_name,
@@ -40,7 +41,22 @@ class FoodKnowledgeBase:
             "category": category,
             "ingredients": ingredients or [],
             "cooking_method": cooking_method,
-            "cultural_note": cultural_note
+            "cultural_note": cultural_note,
+            "attributes": attributes  # Compact attribute string for attribute-aware retrieval
+        }
+    
+    def get_attribute_string(self, english_name: str) -> str:
+        """Get attribute string for a food (for attribute-aware retrieval)"""
+        food_info = self.knowledge.get(english_name)
+        if food_info and food_info.get("attributes"):
+            return food_info["attributes"]
+        return ""
+    
+    def get_all_foods_with_attributes(self) -> Dict[str, str]:
+        """Get dictionary mapping food names to their attribute strings"""
+        return {
+            name: info.get("attributes", "") 
+            for name, info in self.knowledge.items()
         }
     
     def get_food_info(self, english_name: str) -> Optional[Dict]:

@@ -25,26 +25,33 @@ def generate_food_descriptions():
         # Check if we have a predefined description
         if english_name in KOREAN_FOOD_DESCRIPTIONS:
             info = KOREAN_FOOD_DESCRIPTIONS[english_name]
-            descriptions[english_name] = {
-                'korean_name': korean_name,
-                'english_name': english_name,
-                'category': info['category'],
-                'description': info['description'],
-                'ingredients': info['ingredients'],
-                'cooking_method': info['cooking_method'],
-                'cultural_note': info['cultural_note']
-            }
-        else:
-            # Generate a basic description for foods not in the predefined list
-            category = classify_food_category(english_name)
+            category = info['category']
+            description = info['description']
+            ingredients = info['ingredients']
             descriptions[english_name] = {
                 'korean_name': korean_name,
                 'english_name': english_name,
                 'category': category,
-                'description': generate_basic_description(english_name, category),
-                'ingredients': extract_likely_ingredients(english_name),
+                'description': description,
+                'ingredients': ingredients,
+                'cooking_method': info['cooking_method'],
+                'cultural_note': info['cultural_note'],
+                'attributes': generate_attribute_string(english_name, category, description, ingredients)
+            }
+        else:
+            # Generate a basic description for foods not in the predefined list
+            category = classify_food_category(english_name)
+            description = generate_basic_description(english_name, category)
+            ingredients = extract_likely_ingredients(english_name)
+            descriptions[english_name] = {
+                'korean_name': korean_name,
+                'english_name': english_name,
+                'category': category,
+                'description': description,
+                'ingredients': ingredients,
                 'cooking_method': infer_cooking_method(english_name),
-                'cultural_note': "A traditional Korean dish enjoyed across the country."
+                'cultural_note': "A traditional Korean dish enjoyed across the country.",
+                'attributes': generate_attribute_string(english_name, category, description, ingredients)
             }
     
     return descriptions
@@ -192,6 +199,87 @@ def infer_cooking_method(food_name):
         return "Prepared using traditional Korean cooking methods"
 
 
+def generate_attribute_string(food_name, category, description, ingredients):
+    """
+    Generate compact attribute string for attribute-aware retrieval.
+    Attributes: broth color/opacity, noodle/rice type, spiciness, primary protein, garnish, vessel
+    """
+    name_lower = food_name.lower()
+    desc_lower = description.lower() if description else ""
+    attrs = []
+    
+    # Broth color/opacity (for soups/stews)
+    if category == "Soup/Stew" or 'soup' in name_lower or 'stew' in name_lower or 'jjigae' in name_lower or 'tang' in name_lower or 'guk' in name_lower:
+        if 'red' in desc_lower or 'spicy' in desc_lower or 'gochujang' in desc_lower or 'gochugaru' in desc_lower:
+            attrs.append("red spicy broth")
+        elif 'clear' in desc_lower or 'light' in desc_lower:
+            attrs.append("clear light broth")
+        elif 'cloudy' in desc_lower or 'milky' in desc_lower:
+            attrs.append("cloudy milky broth")
+        else:
+            attrs.append("savory broth")
+    
+    # Noodle/rice type
+    if 'noodle' in name_lower or 'myeon' in name_lower:
+        if 'buckwheat' in desc_lower or 'naengmyeon' in name_lower:
+            attrs.append("buckwheat noodles")
+        elif 'glass' in desc_lower or 'japchae' in name_lower:
+            attrs.append("glass noodles")
+        else:
+            attrs.append("wheat noodles")
+    elif 'rice' in name_lower or 'bap' in name_lower:
+        attrs.append("white rice")
+    elif 'porridge' in name_lower or 'juk' in name_lower:
+        attrs.append("rice porridge")
+    
+    # Spiciness
+    if 'spicy' in desc_lower or 'hot' in desc_lower or 'gochujang' in desc_lower or 'gochugaru' in desc_lower or 'chili' in desc_lower:
+        attrs.append("spicy")
+    elif 'mild' in desc_lower or 'sweet' in desc_lower:
+        attrs.append("mild sweet")
+    else:
+        attrs.append("moderate seasoning")
+    
+    # Primary protein
+    if 'beef' in name_lower or 'beef' in desc_lower:
+        attrs.append("beef")
+    elif 'pork' in name_lower or 'pork' in desc_lower:
+        attrs.append("pork")
+    elif 'chicken' in name_lower or 'chicken' in desc_lower:
+        attrs.append("chicken")
+    elif 'seafood' in name_lower or 'seafood' in desc_lower or 'fish' in name_lower or 'shrimp' in desc_lower:
+        attrs.append("seafood")
+    elif 'tofu' in name_lower or 'tofu' in desc_lower:
+        attrs.append("tofu")
+    elif 'egg' in name_lower or 'egg' in desc_lower:
+        attrs.append("egg")
+    else:
+        attrs.append("vegetables")
+    
+    # Garnish/toppings
+    if 'egg' in desc_lower and 'egg' not in attrs:
+        attrs.append("egg garnish")
+    if 'scallion' in desc_lower or 'green onion' in desc_lower:
+        attrs.append("scallions")
+    if 'sesame' in desc_lower:
+        attrs.append("sesame seeds")
+    if 'kimchi' in desc_lower:
+        attrs.append("kimchi")
+    
+    # Vessel/serving style
+    if 'stone pot' in desc_lower or 'dolsot' in name_lower:
+        attrs.append("stone pot")
+    elif 'bowl' in desc_lower or category in ["Soup/Stew", "Noodles", "Rice Dish"]:
+        attrs.append("bowl")
+    elif 'plate' in desc_lower or category in ["Grilled Meat", "Side Dish (Banchan)"]:
+        attrs.append("plate")
+    elif 'pan' in desc_lower or category == "Pancake":
+        attrs.append("pan")
+    
+    # Join attributes into compact string
+    return ", ".join(attrs) if attrs else "Korean dish"
+
+
 def main():
     print("Building Korean Food Knowledge Base...")
     print(f"Reading data from: {config.CSV_PATH}")
@@ -213,7 +301,8 @@ def main():
             category=info['category'],
             ingredients=info['ingredients'],
             cooking_method=info['cooking_method'],
-            cultural_note=info['cultural_note']
+            cultural_note=info['cultural_note'],
+            attributes=info.get('attributes', '')
         )
     
     # Save knowledge base

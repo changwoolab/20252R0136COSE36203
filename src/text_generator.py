@@ -4,7 +4,7 @@ Uses TinyLlama or similar small LLM to generate natural language explanations
 """
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
-from typing import Dict, Optional
+from typing import Dict, Optional, List, Tuple
 import json
 
 
@@ -57,27 +57,110 @@ class FoodExplainer:
         
         print(f"Text generation model loaded successfully")
     
+    def generate_explanation_from_attributes(
+        self,
+        food_name: str,
+        attribute_descriptions: Dict[str, str],
+        predicted_attributes: List[Tuple[str, float]],
+        max_new_tokens: int = 100,
+        temperature: float = 0.7
+    ) -> str:
+        """
+        Generate explanation from attributes when food is not in main DB
+        Implements Strategy 2: Attribute Retrieval
+        
+        Args:
+            food_name: Predicted food name (e.g., "Dakbal")
+            attribute_descriptions: Dictionary mapping attribute names to descriptions
+            predicted_attributes: List of (attribute_name, confidence) tuples
+            max_new_tokens: Maximum tokens to generate
+            temperature: Sampling temperature
+        
+        Returns:
+            Generated explanation text
+        """
+        # Create prompt with attributes
+        attribute_names = [attr[0] for attr in predicted_attributes]
+        attribute_texts = [attribute_descriptions.get(name, "") for name in attribute_names if name in attribute_descriptions]
+        attribute_text = " ".join(attribute_texts)
+        
+        prompt = f"""<|system|>
+You are a Korean food expert. Combine known attributes to describe a dish that may not be in your database.</s>
+<|user|>
+User image depicts: {food_name}. Known attributes: {', '.join(attribute_names)}. 
+Attribute descriptions: {attribute_text}
+
+Combine these facts into a description of {food_name}.</s>
+<|assistant|>
+"""
+        
+        # Generate text
+        try:
+            outputs = self.generator(
+                prompt,
+                max_new_tokens=max_new_tokens,
+                temperature=temperature,
+                do_sample=True,
+                top_p=0.9,
+                num_return_sequences=1,
+                pad_token_id=self.tokenizer.eos_token_id,
+                eos_token_id=self.tokenizer.eos_token_id,
+                repetition_penalty=1.1,
+                truncation=True
+            )
+            
+            generated_text = outputs[0]['generated_text']
+            
+            # Extract response
+            if '<|assistant|>' in generated_text:
+                parts = generated_text.split('<|assistant|>')
+                if len(parts) > 1:
+                    response = parts[-1].strip()
+                    response = response.split('</s>')[0].strip()
+                    if '\n<|' in response:
+                        response = response.split('\n<|')[0].strip()
+                    if response:
+                        return response
+            
+            # Fallback
+            if len(generated_text) > len(prompt):
+                response = generated_text[len(prompt):].strip()
+                response = response.split('</s>')[0].strip()
+                response = response.split('<|')[0].strip()
+                if response:
+                    return response
+            
+            # Template fallback
+            return f"This is {food_name}. It is a dish with the following characteristics: {attribute_text}"
+        
+        except Exception as e:
+            print(f"Error generating text from attributes: {e}")
+            # Template fallback
+            return f"This is {food_name}. It is a dish with the following characteristics: {attribute_text}"
+    
     def generate_explanation(
         self, 
         food_name: str, 
         food_info: Dict,
         max_new_tokens: int = 100,
-        temperature: float = 0.7
+        temperature: float = 0.7,
+        predicted_attributes: List[str] = None
     ) -> str:
         """
-        Generate a natural language explanation about a Korean food
+        Generate a natural language explanation about a Korean food (in-distribution)
         
         Args:
             food_name: English name of the food
             food_info: Dictionary with food information (from knowledge base)
             max_new_tokens: Maximum number of new tokens to generate
             temperature: Sampling temperature
+            predicted_attributes: Optional list of predicted visual attributes
         
         Returns:
             Generated explanation text
         """
-        # Create prompt with food information
-        prompt = self._create_prompt(food_name, food_info)
+        # Create prompt with food information and attributes (in-distribution)
+        prompt = self._create_prompt(food_name, food_info, predicted_attributes)
         
         # Generate text
         try:
@@ -128,8 +211,8 @@ class FoodExplainer:
             # Fallback to template-based generation
             return self._generate_template_explanation(food_name, food_info)
     
-    def _create_prompt(self, food_name: str, food_info: Dict) -> str:
-        """Create a prompt for the LLM"""
+    def _create_prompt(self, food_name: str, food_info: Dict, predicted_attributes: List[str] = None) -> str:
+        """Create a prompt for the LLM (in-distribution foods with full KB info + attributes)"""
         
         korean_name = food_info.get('korean_name', '')
         description = food_info.get('description', '')
@@ -141,16 +224,21 @@ class FoodExplainer:
         # Format ingredients
         ingredients_str = ", ".join(ingredients[:5]) if ingredients else "traditional Korean ingredients"
         
-        # Create prompt with context but let LLM generate the response
+        # Format attributes (in-distribution foods include visual attributes)
+        attributes_str = ""
+        if predicted_attributes:
+            attributes_str = f"\n- Visual attributes: {', '.join(predicted_attributes[:5])}"
+        
+        # Create prompt with full KB context + attributes for in-distribution foods
         prompt = f"""<|system|>
 You are a Korean food expert. Provide clear and concise descriptions of Korean dishes in 1-2 short paragraphs.</s>
 <|user|>
-Tell me about {food_name} ({korean_name}). Here's some information about it:
+Tell me about {food_name} ({korean_name}). Here's detailed information about it:
 - Category: {category}
 - Description: {description}
 - Main ingredients: {ingredients_str}
 - Preparation: {cooking_method}
-- Cultural significance: {cultural_note}
+- Cultural significance: {cultural_note}{attributes_str}
 
 Explain this dish in a natural, conversational way.</s>
 <|assistant|>
@@ -184,6 +272,114 @@ Explain this dish in a natural, conversational way.</s>
         
         return explanation.strip()
     
+    def generate_zeroshot_explanation(
+        self,
+        food_name: str,
+        food_info: Dict,
+        max_new_tokens: int = 150,
+        temperature: float = 0.7
+    ) -> str:
+        """
+        Generate explanation for zero-shot predictions using similar KB foods as context
+        
+        Args:
+            food_name: Predicted food name (not in KB)
+            food_info: Dictionary with food info including similar_kb_foods and similar_context
+            max_new_tokens: Maximum tokens to generate
+            temperature: Sampling temperature
+        
+        Returns:
+            Generated explanation text
+        """
+        # Get similar KB foods context
+        similar_kb_foods = food_info.get('similar_kb_foods', [])
+        similar_kb_foods = similar_kb_foods[:1]
+        print("Similar KB foods: ", similar_kb_foods)
+        
+        # Build simple prompt with only food name and similar dishes (zero-shot - no detailed attributes)
+        similar_foods_str = ", ".join([f['name'] for f in similar_kb_foods]) if similar_kb_foods else ""
+        
+        # Simple prompt for zero-shot: only food name + similar dishes
+        if similar_foods_str:
+            prompt = f"""<|system|>
+You are a Korean food expert. Provide helpful short descriptions of Korean dishes.</s>
+<|user|>
+Tell me about the Korean dish "{food_name}". 
+It appears similar to these Korean dishes: {similar_foods_str}.
+
+Write a brief 1-2 sentence description of {food_name}.</s>
+<|assistant|>
+"""
+        else:
+            # No similar foods found - just describe based on name
+            prompt = f"""<|system|>
+You are a Korean food expert. Provide helpful descriptions of Korean dishes.</s>
+<|user|>
+Tell me about the Korean dish "{food_name}".
+
+Write a brief 2-3 sentence description of {food_name}.</s>
+<|assistant|>
+"""
+        
+        try:
+            outputs = self.generator(
+                prompt,
+                max_new_tokens=max_new_tokens,
+                temperature=temperature,
+                do_sample=True,
+                top_p=0.9,
+                num_return_sequences=1,
+                pad_token_id=self.tokenizer.eos_token_id,
+                eos_token_id=self.tokenizer.eos_token_id,
+                repetition_penalty=1.1,
+                truncation=True
+            )
+            
+            generated_text = outputs[0]['generated_text']
+            
+            # Extract response
+            if '<|assistant|>' in generated_text:
+                parts = generated_text.split('<|assistant|>')
+                if len(parts) > 1:
+                    response = parts[-1].strip()
+                    response = response.split('</s>')[0].strip()
+                    if '\n<|' in response:
+                        response = response.split('\n<|')[0].strip()
+                    if response:
+                        return response
+            
+            # Fallback
+            if len(generated_text) > len(prompt):
+                response = generated_text[len(prompt):].strip()
+                response = response.split('</s>')[0].strip()
+                response = response.split('<|')[0].strip()
+                if response:
+                    return response
+            
+            # Template fallback for zero-shot
+            return self._generate_zeroshot_template(food_name, similar_kb_foods, inferred_category, similar_ingredients)
+        
+        except Exception as e:
+            print(f"Error generating zero-shot explanation: {e}")
+            return self._generate_zeroshot_template(food_name, similar_kb_foods, inferred_category, similar_ingredients)
+    
+    def _generate_zeroshot_template(
+        self,
+        food_name: str,
+        similar_kb_foods: List[Dict],
+        category: str = None,
+        ingredients: List[str] = None
+    ) -> str:
+        """Template-based fallback for zero-shot explanations (simple - only food name + similar dishes)"""
+        similar_names = [f['name'] for f in similar_kb_foods] if similar_kb_foods else []
+        
+        explanation = f"{food_name} is a traditional Korean dish. "
+        
+        if similar_names:
+            explanation += f"It shares similarities with {', '.join(similar_names[:2])}."
+        
+        return explanation
+
     def generate_short_summary(self, food_name: str, food_info: Dict) -> str:
         """Generate a short one-sentence summary"""
         description = food_info.get('description', '')
@@ -256,6 +452,25 @@ class SimpleFoodExplainer:
         
         return explanation.strip()
     
+    def generate_explanation_from_attributes(
+        self,
+        food_name: str,
+        attribute_descriptions: Dict[str, str],
+        predicted_attributes: List[Tuple[str, float]]
+    ) -> str:
+        """Generate explanation from attributes (template-based)"""
+        attribute_names = [attr[0] for attr in predicted_attributes]
+        attribute_texts = [attribute_descriptions.get(name, "") for name in attribute_names if name in attribute_descriptions]
+        
+        explanation = f"**{food_name}**\n\n"
+        explanation += f"This dish is characterized by the following attributes:\n\n"
+        
+        for name, desc in attribute_descriptions.items():
+            if desc:
+                explanation += f"- **{name}**: {desc}\n\n"
+        
+        return explanation.strip()
+    
     def generate_short_summary(self, food_name: str, food_info: Dict) -> str:
         """Generate a short summary"""
         korean_name = food_info.get('korean_name', '')
@@ -264,7 +479,10 @@ class SimpleFoodExplainer:
         return f"{food_name} ({korean_name}): {first_sentence}"
 
 
-def create_explainer(use_llm: bool = True, model_name: str = "TinyLlama/TinyLlama-1.1B-Chat-v1.0") -> object:
+def create_explainer(
+    use_llm: bool = False,
+    model_name: str = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+) -> object:
     """
     Factory function to create an explainer
     

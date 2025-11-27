@@ -11,7 +11,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, egg"
   },
   "Soy Sauce Marinated Crab": {
     "korean_name": "간장게장",
@@ -24,7 +25,8 @@
       "soy sauce"
     ],
     "cooking_method": "Marinated and then cooked",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Grilled Short Ribs": {
     "korean_name": "갈비구이",
@@ -40,7 +42,8 @@
       "pear"
     ],
     "cooking_method": "Ribs are marinated and grilled over charcoal or on a grill pan.",
-    "cultural_note": "A premium Korean BBQ dish, often served at special occasions."
+    "cultural_note": "A premium Korean BBQ dish, often served at special occasions.",
+    "attributes": "mild sweet, beef, plate"
   },
   "Braised Short Ribs": {
     "korean_name": "갈비찜",
@@ -53,7 +56,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Beef Short Rib Soup": {
     "korean_name": "갈비탕",
@@ -67,7 +71,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, beef, bowl"
   },
   "Grilled Hairtail Fish": {
     "korean_name": "갈치구이",
@@ -81,7 +86,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood, plate"
   },
   "Braised Hairtail Fish": {
     "korean_name": "갈치조림",
@@ -95,7 +101,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Potato Pancake": {
     "korean_name": "감자전",
@@ -109,7 +116,8 @@
       "soy sauce"
     ],
     "cooking_method": "Pan-fried until golden",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, pan"
   },
   "Braised Potatoes": {
     "korean_name": "감자조림",
@@ -123,7 +131,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Stir-fried Shredded Potatoes": {
     "korean_name": "감자채볶음",
@@ -137,7 +146,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Pork Backbone Stew": {
     "korean_name": "감자탕",
@@ -151,7 +161,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, pork, bowl"
   },
   "Mustard Leaf Kimchi": {
     "korean_name": "갓김치",
@@ -166,7 +177,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Stir-fried Dried Shrimp": {
     "korean_name": "건새우볶음",
@@ -179,7 +191,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Sweet Rice Balls": {
     "korean_name": "경단",
@@ -193,7 +206,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Egg Soup": {
     "korean_name": "계란국",
@@ -207,7 +221,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, egg, bowl"
   },
   "Rolled Omelet": {
     "korean_name": "계란말이",
@@ -220,7 +235,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Steamed Egg": {
     "korean_name": "계란찜",
@@ -234,7 +250,8 @@
       "soy sauce"
     ],
     "cooking_method": "Steamed to perfection",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, egg"
   },
   "Fried Egg": {
     "korean_name": "계란후라이",
@@ -248,7 +265,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, egg"
   },
   "Grilled Mackerel": {
     "korean_name": "고등어구이",
@@ -261,7 +279,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Braised Mackerel": {
     "korean_name": "고등어조림",
@@ -274,7 +293,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Seasoned Fernbrake": {
     "korean_name": "고사리나물",
@@ -287,7 +307,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Stir-fried Spicy Dried Squid": {
     "korean_name": "고추장진미채볶음",
@@ -300,7 +321,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Deep-fried Chili Peppers": {
     "korean_name": "고추튀김",
@@ -313,7 +335,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Ox Bone Soup": {
     "korean_name": "곰탕_설렁탕",
@@ -326,7 +349,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Grilled Beef Intestines": {
     "korean_name": "곱창구이",
@@ -340,7 +364,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, beef, plate"
   },
   "Beef Tripe Hot Pot": {
     "korean_name": "곱창전골",
@@ -354,7 +379,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, beef"
   },
   "Half-dried Fish (Gwaneji)": {
     "korean_name": "과메기",
@@ -368,7 +394,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Gimbap": {
     "korean_name": "김밥",
@@ -384,7 +411,8 @@
       "meat or fish"
     ],
     "cooking_method": "Seasoned rice and fillings are rolled in dried seaweed sheets and sliced into bite-sized pieces.",
-    "cultural_note": "A popular picnic and lunchbox food, beloved by Koreans of all ages."
+    "cultural_note": "A popular picnic and lunchbox food, beloved by Koreans of all ages.",
+    "attributes": "white rice, moderate seasoning, egg, bowl"
   },
   "Kimchi Fried Rice": {
     "korean_name": "김치볶음밥",
@@ -400,7 +428,8 @@
       "egg"
     ],
     "cooking_method": "Kimchi is stir-fried with rice and meat until slightly crispy.",
-    "cultural_note": "A perfect way to use leftover rice and aged kimchi."
+    "cultural_note": "A perfect way to use leftover rice and aged kimchi.",
+    "attributes": "white rice, moderate seasoning, egg, kimchi, bowl"
   },
   "Kimchi Pancake": {
     "korean_name": "김치전",
@@ -415,7 +444,8 @@
       "soy sauce"
     ],
     "cooking_method": "Pan-fried until golden",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Kimchi Stew": {
     "korean_name": "김치찌개",
@@ -431,7 +461,8 @@
       "gochugaru"
     ],
     "cooking_method": "Kimchi is sautéed with pork, then simmered in broth with tofu and other ingredients.",
-    "cultural_note": "A comfort food staple in Korean households, especially popular in cold weather."
+    "cultural_note": "A comfort food staple in Korean households, especially popular in cold weather.",
+    "attributes": "red spicy broth, spicy, pork, kimchi"
   },
   "Braised Kimchi": {
     "korean_name": "김치찜",
@@ -446,7 +477,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Cubed Radish Kimchi": {
     "korean_name": "깍두기",
@@ -462,7 +494,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Pickled Perilla Leaves": {
     "korean_name": "깻잎장아찌",
@@ -475,7 +508,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Steamed Cockles": {
     "korean_name": "꼬막찜",
@@ -488,7 +522,8 @@
       "soy sauce"
     ],
     "cooking_method": "Steamed to perfection",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Braised Pacific Saury": {
     "korean_name": "꽁치조림",
@@ -501,7 +536,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Seasoned Shishito Peppers": {
     "korean_name": "꽈리고추무침",
@@ -514,7 +550,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Honey Rice Cake": {
     "korean_name": "꿀떡",
@@ -528,7 +565,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Watery Kimchi": {
     "korean_name": "나박김치",
@@ -543,7 +581,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Scorched Rice": {
     "korean_name": "누룽지",
@@ -557,7 +596,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Spicy Stir-fried Chicken": {
     "korean_name": "닭갈비",
@@ -571,7 +611,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, chicken"
   },
   "Spicy Chicken Soup": {
     "korean_name": "닭계장",
@@ -585,7 +626,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, chicken, bowl"
   },
   "Braised Spicy Chicken": {
     "korean_name": "닭볶음탕",
@@ -599,7 +641,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, chicken"
   },
   "Grilled Deodeok Root": {
     "korean_name": "더덕구이",
@@ -612,7 +655,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Seasoned Bellflower Root": {
     "korean_name": "도라지무침",
@@ -625,7 +669,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Acorn Jelly": {
     "korean_name": "도토리묵",
@@ -638,7 +683,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Korean Meat Patties": {
     "korean_name": "동그랑땡",
@@ -651,7 +697,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Pollack Stew": {
     "korean_name": "동태찌개",
@@ -664,7 +711,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Soybean Paste Stew": {
     "korean_name": "된장찌개",
@@ -681,7 +729,8 @@
       "chili peppers"
     ],
     "cooking_method": "Vegetables and protein are simmered in a broth flavored with doenjang.",
-    "cultural_note": "A fundamental dish in Korean cuisine, representing traditional fermented flavors."
+    "cultural_note": "A fundamental dish in Korean cuisine, representing traditional fermented flavors.",
+    "attributes": "savory broth, moderate seasoning, seafood"
   },
   "Tofu with Kimchi": {
     "korean_name": "두부김치",
@@ -697,7 +746,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, tofu"
   },
   "Braised Tofu": {
     "korean_name": "두부조림",
@@ -711,7 +761,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, tofu"
   },
   "Braised Peanuts": {
     "korean_name": "땅콩조림",
@@ -724,7 +775,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Grilled Short Rib Patties": {
     "korean_name": "떡갈비",
@@ -737,7 +789,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Rice Cake and Dumpling Soup": {
     "korean_name": "떡국_만두국",
@@ -751,7 +804,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, white rice, moderate seasoning, vegetables, bowl"
   },
   "Rice Cake Skewers": {
     "korean_name": "떡꼬치",
@@ -765,7 +819,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Spicy Rice Cakes": {
     "korean_name": "떡볶이",
@@ -781,7 +836,8 @@
       "scallions"
     ],
     "cooking_method": "Rice cakes are simmered in a spicy-sweet sauce until tender and well-coated.",
-    "cultural_note": "One of the most popular Korean street foods, beloved by students and office workers."
+    "cultural_note": "One of the most popular Korean street foods, beloved by students and office workers.",
+    "attributes": "white rice, spicy, egg, scallions"
   },
   "Ramen": {
     "korean_name": "라면",
@@ -794,7 +850,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Spicy Ramen with Rice Cakes": {
     "korean_name": "라볶이",
@@ -808,7 +865,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Buckwheat Noodles": {
     "korean_name": "막국수",
@@ -822,7 +880,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Dumplings": {
     "korean_name": "만두",
@@ -835,7 +894,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Spicy Fish Stew": {
     "korean_name": "매운탕",
@@ -849,7 +909,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, seafood, bowl"
   },
   "Sea Squirt": {
     "korean_name": "멍게",
@@ -862,7 +923,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Braised Quail Eggs in Soy Sauce": {
     "korean_name": "메추리알장조림",
@@ -876,7 +938,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, egg"
   },
   "Stir-fried Anchovies": {
     "korean_name": "멸치볶음",
@@ -889,7 +952,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Radish Soup": {
     "korean_name": "무국",
@@ -903,7 +967,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Seasoned Radish Salad": {
     "korean_name": "무생채",
@@ -917,7 +982,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Cold Buckwheat Noodles": {
     "korean_name": "물냉면",
@@ -933,7 +999,8 @@
       "radish"
     ],
     "cooking_method": "Noodles are cooked and chilled, then served in ice-cold broth.",
-    "cultural_note": "A summer favorite, especially popular in North Korean cuisine."
+    "cultural_note": "A summer favorite, especially popular in North Korean cuisine.",
+    "attributes": "buckwheat noodles, moderate seasoning, beef, egg garnish, bowl"
   },
   "Cold Raw Fish Soup": {
     "korean_name": "물회",
@@ -947,7 +1014,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, seafood, bowl"
   },
   "Seaweed Soup": {
     "korean_name": "미역국",
@@ -962,7 +1030,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seaweed is sautéed with protein and sesame oil, then simmered in broth.",
-    "cultural_note": "Traditionally eaten by new mothers for nutrition and on birthdays."
+    "cultural_note": "Traditionally eaten by new mothers for nutrition and on birthdays.",
+    "attributes": "clear light broth, moderate seasoning, beef, sesame seeds"
   },
   "Stir-fried Seaweed Stems": {
     "korean_name": "미역줄기볶음",
@@ -975,7 +1044,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Napa Cabbage Kimchi": {
     "korean_name": "배추김치",
@@ -991,7 +1061,8 @@
       "salted shrimp"
     ],
     "cooking_method": "Cabbage is salted, rinsed, then coated with seasoning paste and fermented.",
-    "cultural_note": "A UNESCO cultural heritage item and essential component of Korean meals."
+    "cultural_note": "A UNESCO cultural heritage item and essential component of Korean meals.",
+    "attributes": "spicy, seafood, kimchi"
   },
   "White Kimchi": {
     "korean_name": "백김치",
@@ -1006,7 +1077,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Boiled Pork Wraps": {
     "korean_name": "보쌈",
@@ -1020,7 +1092,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, pork"
   },
   "Chive Kimchi": {
     "korean_name": "부추김치",
@@ -1035,7 +1108,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Dried Pollack Soup": {
     "korean_name": "북엇국",
@@ -1048,7 +1122,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Marinated Grilled Beef": {
     "korean_name": "불고기",
@@ -1065,7 +1140,8 @@
       "onions"
     ],
     "cooking_method": "Meat is marinated for several hours, then grilled over high heat or stir-fried.",
-    "cultural_note": "Literally means 'fire meat'. One of the most popular Korean dishes internationally."
+    "cultural_note": "Literally means 'fire meat'. One of the most popular Korean dishes internationally.",
+    "attributes": "mild sweet, beef, sesame seeds, plate"
   },
   "Spicy Cold Noodles": {
     "korean_name": "비빔냉면",
@@ -1079,7 +1155,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Bibimbap": {
     "korean_name": "비빔밥",
@@ -1095,7 +1172,8 @@
       "sesame oil"
     ],
     "cooking_method": "Each ingredient is prepared separately and arranged over warm rice. Mixed together before eating.",
-    "cultural_note": "One of the most iconic Korean dishes, representing harmony and balance with its colorful ingredients."
+    "cultural_note": "One of the most iconic Korean dishes, representing harmony and balance with its colorful ingredients.",
+    "attributes": "white rice, spicy, beef, egg garnish, bowl"
   },
   "Live Octopus": {
     "korean_name": "산낙지",
@@ -1108,7 +1186,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Grilled Pork Belly": {
     "korean_name": "삼겹살",
@@ -1124,7 +1203,8 @@
       "kimchi"
     ],
     "cooking_method": "Pork is grilled on a tabletop grill and eaten with various accompaniments.",
-    "cultural_note": "A favorite at Korean BBQ restaurants, often enjoyed with soju."
+    "cultural_note": "A favorite at Korean BBQ restaurants, often enjoyed with soju.",
+    "attributes": "moderate seasoning, pork, plate"
   },
   "Ginseng Chicken Soup": {
     "korean_name": "삼계탕",
@@ -1140,7 +1220,8 @@
       "ginger"
     ],
     "cooking_method": "Chicken is stuffed with rice and ingredients, then slow-cooked in broth.",
-    "cultural_note": "Traditionally eaten during the hottest days of summer (boknal) to restore energy."
+    "cultural_note": "Traditionally eaten during the hottest days of summer (boknal) to restore energy.",
+    "attributes": "red spicy broth, moderate seasoning, chicken"
   },
   "Shrimp Fried Rice": {
     "korean_name": "새우볶음밥",
@@ -1154,7 +1235,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Shrimp Tempura": {
     "korean_name": "새우튀김",
@@ -1167,7 +1249,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Fish Pancake": {
     "korean_name": "생선전",
@@ -1181,7 +1264,8 @@
       "soy sauce"
     ],
     "cooking_method": "Pan-fried until golden",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood, pan"
   },
   "Stir-fried Sausage": {
     "korean_name": "소세지볶음",
@@ -1194,7 +1278,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Rice Cake with Sweet Filling": {
     "korean_name": "송편",
@@ -1208,7 +1293,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Boiled Pork Slices": {
     "korean_name": "수육",
@@ -1222,7 +1308,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, pork"
   },
   "Cinnamon Punch": {
     "korean_name": "수정과",
@@ -1235,7 +1322,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Hand-torn Noodle Soup": {
     "korean_name": "수제비",
@@ -1249,7 +1337,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Seasoned Bean Sprouts": {
     "korean_name": "숙주나물",
@@ -1263,7 +1352,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Korean Blood Sausage": {
     "korean_name": "순대",
@@ -1276,7 +1366,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Soft Tofu Stew": {
     "korean_name": "순두부찌개",
@@ -1292,7 +1383,8 @@
       "garlic"
     ],
     "cooking_method": "Ingredients are simmered together and served bubbling hot in a stone pot.",
-    "cultural_note": "Perfect comfort food, often eaten with rice to balance the spiciness."
+    "cultural_note": "Perfect comfort food, often eaten with rice to balance the spiciness.",
+    "attributes": "red spicy broth, spicy, seafood, egg garnish"
   },
   "Seasoned Spinach": {
     "korean_name": "시금치나물",
@@ -1306,7 +1398,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Dried Radish Greens Soup": {
     "korean_name": "시래기국",
@@ -1320,7 +1413,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Sweet Rice Drink": {
     "korean_name": "식혜",
@@ -1334,7 +1428,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Flying Fish Roe Rice": {
     "korean_name": "알밥",
@@ -1349,7 +1444,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, seafood, bowl"
   },
   "Stir-fried Zucchini": {
     "korean_name": "애호박볶음",
@@ -1362,7 +1458,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Deep-fried Honey Cookie": {
     "korean_name": "약과",
@@ -1375,7 +1472,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Sweet Rice with Jujube": {
     "korean_name": "약식",
@@ -1389,7 +1487,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Spicy Marinated Crab": {
     "korean_name": "양념게장",
@@ -1402,7 +1501,8 @@
       "soy sauce"
     ],
     "cooking_method": "Marinated and then cooked",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Seasoned Fried Chicken": {
     "korean_name": "양념치킨",
@@ -1418,7 +1518,8 @@
       "sesame seeds"
     ],
     "cooking_method": "Fried chicken is tossed in a flavorful sauce while still hot.",
-    "cultural_note": "A popular late-night snack, especially when paired with beer."
+    "cultural_note": "A popular late-night snack, especially when paired with beer.",
+    "attributes": "spicy, chicken"
   },
   "Stir-fried Fish Cake": {
     "korean_name": "어묵볶음",
@@ -1432,7 +1533,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Braised Lotus Root": {
     "korean_name": "연근조림",
@@ -1445,7 +1547,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Young Radish Noodles": {
     "korean_name": "열무국수",
@@ -1460,7 +1563,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Young Radish Kimchi": {
     "korean_name": "열무김치",
@@ -1476,7 +1580,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Stuffed Cucumber Kimchi": {
     "korean_name": "오이소박이",
@@ -1491,7 +1596,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Stir-fried Shredded Squid": {
     "korean_name": "오징어채볶음",
@@ -1504,7 +1610,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Deep-fried Squid": {
     "korean_name": "오징어튀김",
@@ -1517,7 +1624,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Braised Burdock Root": {
     "korean_name": "우엉조림",
@@ -1530,7 +1638,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Inari Sushi": {
     "korean_name": "유부초밥",
@@ -1543,7 +1652,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Spicy Beef Soup": {
     "korean_name": "육개장",
@@ -1557,7 +1667,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, beef, bowl"
   },
   "Beef Tartare": {
     "korean_name": "육회",
@@ -1571,7 +1682,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, beef"
   },
   "Banquet Noodles": {
     "korean_name": "잔치국수",
@@ -1585,7 +1697,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Multigrain Rice": {
     "korean_name": "잡곡밥",
@@ -1599,7 +1712,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Glass Noodles with Vegetables": {
     "korean_name": "잡채",
@@ -1615,7 +1729,8 @@
       "sugar"
     ],
     "cooking_method": "Noodles and ingredients are stir-fried separately then combined.",
-    "cultural_note": "A popular side dish at celebrations and a favorite in Korean lunch boxes."
+    "cultural_note": "A popular side dish at celebrations and a favorite in Korean lunch boxes.",
+    "attributes": "glass noodles, mild sweet, vegetables, sesame seeds"
   },
   "Grilled Eel": {
     "korean_name": "장어구이",
@@ -1628,7 +1743,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Braised Beef in Soy Sauce": {
     "korean_name": "장조림",
@@ -1642,7 +1758,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, beef"
   },
   "Abalone Porridge": {
     "korean_name": "전복죽",
@@ -1655,7 +1772,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "rice porridge, moderate seasoning, vegetables, bowl"
   },
   "Salted Seafood": {
     "korean_name": "젓갈",
@@ -1669,7 +1787,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Spicy Stir-fried Pork": {
     "korean_name": "제육볶음",
@@ -1683,7 +1802,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, pork"
   },
   "Grilled Clams": {
     "korean_name": "조개구이",
@@ -1696,7 +1816,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Grilled Croaker": {
     "korean_name": "조기구이",
@@ -1709,7 +1830,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Pork Hock": {
     "korean_name": "족발",
@@ -1723,7 +1845,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, pork"
   },
   "Spicy Stir-fried Webfoot Octopus": {
     "korean_name": "주꾸미볶음",
@@ -1736,7 +1859,8 @@
       "soy sauce"
     ],
     "cooking_method": "Deep-fried until crispy",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Rice Balls": {
     "korean_name": "주먹밥",
@@ -1750,7 +1874,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "white rice, moderate seasoning, vegetables, bowl"
   },
   "Black Bean Noodles": {
     "korean_name": "짜장면",
@@ -1766,7 +1891,8 @@
       "potatoes"
     ],
     "cooking_method": "Black bean sauce is stir-fried and served over boiled noodles.",
-    "cultural_note": "Originally Chinese-Korean cuisine, now a beloved comfort food often delivered."
+    "cultural_note": "Originally Chinese-Korean cuisine, now a beloved comfort food often delivered.",
+    "attributes": "wheat noodles, moderate seasoning, pork, bowl"
   },
   "Spicy Seafood Noodles": {
     "korean_name": "짬뽕",
@@ -1782,7 +1908,8 @@
       "chicken broth"
     ],
     "cooking_method": "Seafood and vegetables are cooked in spicy broth, served over noodles.",
-    "cultural_note": "Another Chinese-Korean dish, often ordered alongside jjajangmyeon."
+    "cultural_note": "Another Chinese-Korean dish, often ordered alongside jjajangmyeon.",
+    "attributes": "wheat noodles, spicy, seafood, bowl"
   },
   "Chewy Spicy Noodles": {
     "korean_name": "쫄면",
@@ -1796,7 +1923,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Braised Chicken": {
     "korean_name": "찜닭",
@@ -1810,7 +1938,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, chicken"
   },
   "Ponytail Kimchi": {
     "korean_name": "총각김치",
@@ -1825,7 +1954,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Loach Soup": {
     "korean_name": "추어탕",
@@ -1838,7 +1968,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Knife-cut Noodles": {
     "korean_name": "칼국수",
@@ -1852,7 +1983,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Braised Pollack": {
     "korean_name": "코다리조림",
@@ -1865,7 +1997,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Soybean Noodle Soup": {
     "korean_name": "콩국수",
@@ -1880,7 +2013,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, wheat noodles, moderate seasoning, vegetables, bowl"
   },
   "Soybean Sprout Soup": {
     "korean_name": "콩나물국",
@@ -1894,7 +2028,8 @@
       "soy sauce"
     ],
     "cooking_method": "Simmered in broth",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "red spicy broth, moderate seasoning, vegetables, bowl"
   },
   "Seasoned Soybean Sprouts": {
     "korean_name": "콩나물무침",
@@ -1908,7 +2043,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Braised Black Beans": {
     "korean_name": "콩자반",
@@ -1922,7 +2058,8 @@
       "soy sauce"
     ],
     "cooking_method": "Braised in sauce until tender",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Green Onion Kimchi": {
     "korean_name": "파김치",
@@ -1937,7 +2074,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "spicy, vegetables"
   },
   "Green Onion Pancake": {
     "korean_name": "파전",
@@ -1950,7 +2088,8 @@
       "soy sauce"
     ],
     "cooking_method": "Pan-fried until golden",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, pan"
   },
   "Pressed Boiled Pork": {
     "korean_name": "편육",
@@ -1964,7 +2103,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, pork"
   },
   "Pizza": {
     "korean_name": "피자",
@@ -1977,7 +2117,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Traditional Korean Sweets": {
     "korean_name": "한과",
@@ -1990,7 +2131,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   },
   "Spicy Seafood Steamed Dish": {
     "korean_name": "해물찜",
@@ -2004,7 +2146,8 @@
       "soy sauce"
     ],
     "cooking_method": "Steamed to perfection",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Pumpkin Pancake": {
     "korean_name": "호박전",
@@ -2017,7 +2160,8 @@
       "soy sauce"
     ],
     "cooking_method": "Pan-fried until golden",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, pan"
   },
   "Pumpkin Porridge": {
     "korean_name": "호박죽",
@@ -2030,7 +2174,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "rice porridge, moderate seasoning, vegetables, bowl"
   },
   "Seasoned Skate": {
     "korean_name": "홍어무침",
@@ -2043,7 +2188,8 @@
       "soy sauce"
     ],
     "cooking_method": "Seasoned with Korean spices and sauces",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, sesame seeds, plate"
   },
   "Grilled Dried Pollack": {
     "korean_name": "황태구이",
@@ -2056,7 +2202,8 @@
       "soy sauce"
     ],
     "cooking_method": "Grilled over high heat",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables, plate"
   },
   "Spicy Raw Fish Salad": {
     "korean_name": "회무침",
@@ -2070,7 +2217,8 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, seafood"
   },
   "Fried Chicken": {
     "korean_name": "후라이드치킨",
@@ -2084,7 +2232,8 @@
       "seasonings"
     ],
     "cooking_method": "Chicken is coated and double-fried to achieve signature crispiness.",
-    "cultural_note": "Korean fried chicken is famous worldwide for its incredible crunch. Perfect with beer (chimaek)."
+    "cultural_note": "Korean fried chicken is famous worldwide for its incredible crunch. Perfect with beer (chimaek).",
+    "attributes": "moderate seasoning, chicken"
   },
   "Smoked Duck": {
     "korean_name": "훈제오리",
@@ -2097,6 +2246,7 @@
       "soy sauce"
     ],
     "cooking_method": "Prepared using traditional Korean cooking methods",
-    "cultural_note": "A traditional Korean dish enjoyed across the country."
+    "cultural_note": "A traditional Korean dish enjoyed across the country.",
+    "attributes": "moderate seasoning, vegetables"
   }
 }
